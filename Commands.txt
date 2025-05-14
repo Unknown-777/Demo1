@@ -4,6 +4,7 @@ gcc flex.yy.c
 ./a.out
 
 YACC COMMANDS
+flex inputfile.l(filename)
 yacc -d inputfile.y(filename)
-gcc y.tab.c
+gcc lex.yy.c y.tab.c
 ./a.out

@@ -1,0 +1,9 @@
+LEX COMMANDS
+flex inputfile.l(filename)
+gcc flex.yy.c
+./a.out
+
+YACC COMMANDS
+yacc -d inputfile.y(filename)
+gcc y.tab.c
+./a.out

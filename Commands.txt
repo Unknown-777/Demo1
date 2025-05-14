@@ -1,6 +1,6 @@
 LEX COMMANDS
 flex inputfile.l(filename)
-gcc flex.yy.c
+gcc lex.yy.c
 ./a.out
 
 YACC COMMANDS
